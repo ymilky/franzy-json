@@ -12,6 +12,7 @@
                                         :username      :env
                                         :password      :env
                                         :sign-releases false}}
+            :aot :all
             :dependencies [[org.clojure/clojure "1.8.0"]
                            [org.apache.kafka/kafka-clients "0.9.0.1"]
                            [cheshire "5.5.0"]]
